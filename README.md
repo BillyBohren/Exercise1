@@ -27,7 +27,7 @@ Este proyecto demuestra cómo configurar y usar gRPC con Kotlin en una aplicaci�
 Primero, clona el repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/billyBohren/grpc-kotlin-springboot.git
+git clone https://github.com/BillyBohren/exercise1.git
 cd grpc-kotlin-
 ```
 
@@ -59,3 +59,6 @@ grpcurl -plaintext -d '{"user_id":"123"}' localhost:9090 com.backend.exercise1.g
 ```
 
 O puedes usar BloomRpc si prefieres usar una interfaz grafica
+
+
+Nota: En el archivo principal generado por proto UserServiceGrpc.java, tienes que reemplazar javax por jakarta (linea 7), una vez ejecutados los comandos mvn clean install o mvn clean compile antes de correr el proyecto
