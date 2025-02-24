@@ -62,4 +62,5 @@ O puedes usar BloomRpc si prefieres usar una interfaz grafica
 
 
 Nota: En el archivo principal generado por proto UserServiceGrpc.java, tienes que reemplazar javax por jakarta (linea 7), una vez ejecutados los comandos mvn clean install o mvn clean compile antes de correr el proyecto.
+
 El proyecto ya tiene un archivo que prueba el servicio y al iniciarlo se debe inprimir el resultado de la prueba
